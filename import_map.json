@@ -1,0 +1,9 @@
+{
+  "imports": {
+    "serve": "https://deno.land/std@0.224.0/http/server.ts",
+    "xhr": "https://deno.land/x/xhr@0.1.0/mod.ts",
+    "supabase-functions-js": "https://esm.sh/@supabase/functions-js@2.4.1",
+    "openai": "https://esm.sh/openai@4.20.1",
+    "@/": "./src/"
+  }
+}

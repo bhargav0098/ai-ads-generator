@@ -1,0 +1,21 @@
+{
+  "importMap": "./import_map.json",
+  "compilerOptions": {
+    "lib": ["deno.window"],
+    "strict": true
+  },
+  "lint": {
+    "rules": {
+      "tags": ["recommended"],
+      "exclude": [
+        "no-explicit-any",
+        "no-unused-vars",
+        "no-import-prefix",
+        "no-sloppy-imports"
+      ]
+    }
+  },
+  "tasks": {
+    "dev": "supabase functions serve"
+  }
+}
